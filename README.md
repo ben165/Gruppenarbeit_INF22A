@@ -17,6 +17,8 @@ Ich habe meine Zusammenfassung schon eingefügt (nur als Muster, ich habs noch n
 
 Kleine Schritt für Schritt Anleitung wie ihr das machen könnt. Geht bestimmt mit Windows auch auf der Command Line ansonsten einfach in der virtuelle Maschine machen.
 
+1. SSH Key anlegen (https://gist.github.com/xirixiz/b6b0c6f4917ce17a90e00f9b60566278)
+
 1. Irgendein Ordner lokal anlegen. Dort reinwechseln.
 
 1. Lokal Repo laden mit Befehl:
@@ -43,4 +45,7 @@ Kleine Schritt für Schritt Anleitung wie ihr das machen könnt. Geht bestimmt m
 
 1. Main auf MeinAbstract mergen
     git merge origin/main
+
+1. Dann pushen
+    git push origin MeinAbstract
 
