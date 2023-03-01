@@ -66,8 +66,8 @@ Kleine Schritt für Schritt Anleitung wie ihr das machen könnt. Geht bestimmt m
 
 Ich glaube, man muss nicht unbedingt aus dem momentanen Branch auschecken, um main zu aktualisieren. Bin mir mit der Befehlsreihenfolge nicht so sicher. Wenn ihr euren Branch pusht, pflege ich das auf GitHub dann final ein. Versucht nicht so viel in den Dateien **main.tex** und **literatur.bib** zu editieren, da hier die meisten Konflikte entstehen können.
 
-Als Beispiel die **main.pdf** als momentan kompilierte Datei. Ihr könnt ja zum Test mal eure Überschrift in eurer **abstract** Datei einfügen und pushen, damit ihr versteht, wie das geht.
+Als Beispiel die **main.pdf** als momentan kompilierte Datei. Ihr könnt ja zum Test mal eure Überschrift in eure **abstract** Datei einfügen und pushen, damit ihr versteht, wie das geht.
 
-Mir fällt sonst kein besserer Weg ein wie man das machen kann.
+Mir fällt sonst kein besserer Weg ein wie man das machen kann. Ist nur ne Idee, falls sich jemand bereit dazu erklärt das mit Word zu machen - auch gut.
 
 Cheers
