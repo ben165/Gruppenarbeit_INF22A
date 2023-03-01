@@ -17,7 +17,7 @@ Ich habe meine Zusammenfassung schon eingefügt (nur als Muster, ich habs noch n
 
 Kleine Schritt für Schritt Anleitung wie ihr das machen könnt. Geht bestimmt mit Windows auch auf der command line ansonsten einfach in der virtuelle Maschine machen. Ihr braucht einen GutHub Account und einen SSH Key, den ihr im Profil auf GitHub hinterlegen müsst.
 
-1. Bei GutHub anmelden, SSH Key anlegen (https://gist.github.com/xirixiz/b6b0c6f4917ce17a90e00f9b60566278) und im Profil einpflegen.
+1. Bei GitHub anmelden, SSH Key anlegen (https://gist.github.com/xirixiz/b6b0c6f4917ce17a90e00f9b60566278) und im Profil einpflegen.
 
 1. Irgendein Ordner lokal anlegen. Dort reinwechseln.
 
