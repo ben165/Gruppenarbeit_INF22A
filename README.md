@@ -25,11 +25,11 @@ Kleine Schritt für Schritt Anleitung wie ihr das machen könnt. Geht bestimmt m
 
     `git clone https://github.com/ben165/Gruppenarbeit_INF22A.git`
 
-1. Neuer Branch erstellen und dahin wechseln (MeinAbstract als Beispiel):
+1. Neuen Branch erstellen und dahin wechseln (MeinAbstract als Beispiel):
 
     `git checkout -b MeinAbstract`
 
-1. Änderung in Dateien vornehmen (**main.tex** - hier dein input hinzufuegen, **literatur.bib**) und eigenes Abstract als **Dateinamen.tex** in Ordner **abstracts/** hinzufügen. Ich habe für den Dateinamen meine Initialien verwendet und daraus die Datei **bu.tex** erstellt. Diese muss einzigartig sein.
+1. Änderung in Dateien vornehmen (**main.tex** - hier dein input Befehl hinzufügen, **literatur.bib**) und eigenes Abstract als **Dateinamen.tex** in Ordner **abstracts/** anlegen. Ich habe für den Dateinamen meine Initialien verwendet und daraus die Datei **bu.tex** erstellt. Diese muss einzigartig sein.
 
 1. Die geänderten Dateien hinzufügen (sofern eine Aenderung gemacht wurde):
 
@@ -39,7 +39,7 @@ Kleine Schritt für Schritt Anleitung wie ihr das machen könnt. Geht bestimmt m
 
     `git add literatur.bib`
 
-1. Nach getaner Arbeit einen Commit absetzen mit Inhalt was geaendert wurde:
+1. Nach getaner Arbeit einen Commit absetzen mit kurzer Info zur Änderung:
 
     `git commit -m "Update Abstract Benjamin"`
 
@@ -55,7 +55,7 @@ Kleine Schritt für Schritt Anleitung wie ihr das machen könnt. Geht bestimmt m
 
     `git checkout MeinAbstract`
 
-1. Main auf MeinAbstract mergen
+1. Main auf MeinAbstract mergen (hier kann es jetzt zu Konflikten kommen, diese entsprechend lösen)
 
     `git merge origin/main`
 
