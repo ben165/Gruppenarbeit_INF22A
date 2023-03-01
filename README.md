@@ -11,13 +11,13 @@ Für die gemeinsame Zusammenstellung aller Themen ist es einfacher jeder pushed 
 | abstracts/    | Hier liegen eure Abstracts in .tex Form. Dieses müsst ihr anlegen und in main.tex verlinken. |
 
 
-Ich habe meine Zusammenfassung schon eingefügt (nur als Muster, ich habs noch nicht angefangen, aber auch mit Literaturverweiß, dass man sieht, wie es geht), da könnt ihr euch ein Beispiel nehmen.
+Ich habe meine Zusammenfassung schon eingefügt (nur als Muster, ich habs noch nicht angefangen, aber auch mit Literaturverweiß, dass man sieht, wie es geht).
 
 ## How to
 
-Kleine Schritt für Schritt Anleitung wie ihr das machen könnt. Geht bestimmt mit Windows auch auf der Command Line ansonsten einfach in der virtuelle Maschine machen.
+Kleine Schritt für Schritt Anleitung wie ihr das machen könnt. Geht bestimmt mit Windows auch auf der command line ansonsten einfach in der virtuelle Maschine machen. Ihr braucht einen GutHub Account und einen SSH Key, den ihr im Profil auf GitHub hinterlegen müsst.
 
-1. SSH Key anlegen (https://gist.github.com/xirixiz/b6b0c6f4917ce17a90e00f9b60566278)
+1. Bei GutHub anmelden, SSH Key anlegen (https://gist.github.com/xirixiz/b6b0c6f4917ce17a90e00f9b60566278) und im Profil einpflegen.
 
 1. Irgendein Ordner lokal anlegen. Dort reinwechseln.
 
@@ -29,19 +29,21 @@ Kleine Schritt für Schritt Anleitung wie ihr das machen könnt. Geht bestimmt m
 
     `git checkout -b MeinAbstract`
 
-1. Änderung in Dateien vornehmen (main.tex - hier input hinzufuegen, literatur.bib) und eigenes Abstract als *Dateinamen.tex* in Ordner *abstracts/* hinzufügen. Ich habe für den Dateinamen meine Initialien verwendet und daraus die Datei *bu.tex* erstellt. Diese muss einzigartig sein.
+1. Änderung in Dateien vornehmen (**main.tex** - hier dein input hinzufuegen, **literatur.bib**) und eigenes Abstract als **Dateinamen.tex** in Ordner **abstracts/** hinzufügen. Ich habe für den Dateinamen meine Initialien verwendet und daraus die Datei **bu.tex** erstellt. Diese muss einzigartig sein.
 
 1. Eure geaenderten Dateien hinzufuegen (sofern eine Aenderung gemacht wurde):
 
     `git add abstracts/MEINABSTRACT.tex`
+
     `git add main.tex`
+
     `git add literatur.bib`
 
 1. Nach getaner Arbeit einen Commit absetzen mit Inhalt was geaendert wurde:
 
     `git commit -m "Update Abstract Benjamin"`
 
-1. Nach getaner Arbeit Wechsel in den main branch
+1. Zurück in den main branch
 
     `git checkout main`
 
@@ -49,7 +51,7 @@ Kleine Schritt für Schritt Anleitung wie ihr das machen könnt. Geht bestimmt m
 
     `git pull`
 
-1. Zurueck in den eigenen Branch
+1. Zurück in den eigenen Branch
 
     `git checkout MeinAbstract`
 
@@ -62,8 +64,10 @@ Kleine Schritt für Schritt Anleitung wie ihr das machen könnt. Geht bestimmt m
     `git push origin MeinAbstract`
 
 
-Ich glaube man muss nicht unbedingt aus dem momentanen Branch auschecken um main up zu daten. Bin mir mit der Befehlsreihenfolge nicht so sicher. Wenn ihr euren Branch pusht pflege ich das auf GitHub dann final ein.
+Ich glaube, man muss nicht unbedingt aus dem momentanen Branch auschecken, um main zu aktualisieren. Bin mir mit der Befehlsreihenfolge nicht so sicher. Wenn ihr euren Branch pusht, pflege ich das auf GitHub dann final ein. Versucht nicht so viel in den Dateien **main.tex** und **literatur.bib** zu editieren, da hier die meisten Konflikte entstehen können.
 
-Als Beispiel die **main.pdf** als momentan kompilierte Datei. Ihr koennt ja zum Test mal eure Ueberschrift einfuegen und pushen, damit ihr versteht, wie das geht.
+Als Beispiel die **main.pdf** als momentan kompilierte Datei. Ihr könnt ja zum Test mal eure Überschrift in eurer **abstract** Datei einfügen und pushen, damit ihr versteht, wie das geht.
 
-Mir faellt sonst kein bessere Weg ein wie man es machen kann.
+Mir fällt sonst kein besserer Weg ein wie man das machen kann.
+
+Cheers
