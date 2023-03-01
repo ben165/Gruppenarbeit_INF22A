@@ -31,7 +31,7 @@ Kleine Schritt für Schritt Anleitung wie ihr das machen könnt. Geht bestimmt m
 
 1. Änderung in Dateien vornehmen (**main.tex** - hier dein input hinzufuegen, **literatur.bib**) und eigenes Abstract als **Dateinamen.tex** in Ordner **abstracts/** hinzufügen. Ich habe für den Dateinamen meine Initialien verwendet und daraus die Datei **bu.tex** erstellt. Diese muss einzigartig sein.
 
-1. Eure geaenderten Dateien hinzufuegen (sofern eine Aenderung gemacht wurde):
+1. Die geänderten Dateien hinzufügen (sofern eine Aenderung gemacht wurde):
 
     `git add abstracts/MEINABSTRACT.tex`
 
@@ -47,7 +47,7 @@ Kleine Schritt für Schritt Anleitung wie ihr das machen könnt. Geht bestimmt m
 
     `git checkout main`
 
-1. Main branch updaten falls jemand was gaendert hat:
+1. Main branch updaten falls jemand was geändert hat:
 
     `git pull`
 
