@@ -22,30 +22,48 @@ Kleine Schritt für Schritt Anleitung wie ihr das machen könnt. Geht bestimmt m
 1. Irgendein Ordner lokal anlegen. Dort reinwechseln.
 
 1. Lokal Repo laden mit Befehl:
-    git clone https://github.com/ben165/Gruppenarbeit_INF22A.git
+
+    `git clone https://github.com/ben165/Gruppenarbeit_INF22A.git`
 
 1. Neuer Branch erstellen und dahin wechseln (MeinAbstract als Beispiel):
-    git checkout -b MeinAbstract
+
+    `git checkout -b MeinAbstract`
 
 1. Änderung in Dateien vornehmen (main.tex - hier input hinzufuegen, literatur.bib) und eigenes Abstract als *Dateinamen.tex* in Ordner *abstracts/* hinzufügen. Ich habe für den Dateinamen meine Initialien verwendet und daraus die Datei *bu.tex* erstellt. Diese muss einzigartig sein.
 
 1. Eure geaenderten Dateien hinzufuegen (sofern eine Aenderung gemacht wurde):
-    git add abstracts/MEINABSTRACT.tex
-    git add main.tex
-    git add literatur.bib
+
+    `git add abstracts/MEINABSTRACT.tex`
+    `git add main.tex`
+    `git add literatur.bib`
+
+1. Nach getaner Arbeit einen Commit absetzen mit Inhalt was geaendert wurde:
+
+    `git commit -m "Update Abstract Benjamin"`
 
 1. Nach getaner Arbeit Wechsel in den main branch
-    git checkout main
+
+    `git checkout main`
 
 1. Main branch updaten falls jemand was gaendert hat:
-    git pull
+
+    `git pull`
 
 1. Zurueck in den eigenen Branch
-    git checkout MeinAbstract
+
+    `git checkout MeinAbstract`
 
 1. Main auf MeinAbstract mergen
-    git merge origin/main
+
+    `git merge origin/main`
 
 1. Dann pushen
-    git push origin MeinAbstract
 
+    `git push origin MeinAbstract`
+
+
+Ich glaube man muss nicht unbedingt aus dem momentanen Branch auschecken um main up zu daten. Bin mir mit der Befehlsreihenfolge nicht so sicher. Wenn ihr euren Branch pusht pflege ich das auf GitHub dann final ein.
+
+Als Beispiel die **main.pdf** als momentan kompilierte Datei. Ihr koennt ja zum Test mal eure Ueberschrift einfuegen und pushen, damit ihr versteht, wie das geht.
+
+Mir faellt sonst kein bessere Weg ein wie man es machen kann.
